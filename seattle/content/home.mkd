@@ -1,4 +1,5 @@
 title: Home
+type: home
 url: /index.html
 ---
 Cascade Game Forge home page.
