@@ -3,4 +3,4 @@ url: /index.html
 ---
 Cascade Game Forge home page.
 
-Testing git hooks.
+Testing git hooks. 2.
