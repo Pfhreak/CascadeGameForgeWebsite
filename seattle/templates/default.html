@@ -1,16 +1,7 @@
-<!doctype html>
-<html>
+{# Template for the index page #}
 
-<head>
-  <title>Cascade Game Forge</title>
-</head>
+{% extends "base.html" %}
 
-<body>
-  <header>
-    <h1>{{ page.title }}</h1>
-  </header>
-
-  <article>
-    {{ page.content }}
-  </article>
-</body>
+{% block content %}
+    Main page content
+{% endblock %}

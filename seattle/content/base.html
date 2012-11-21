@@ -1,0 +1,32 @@
+{# Base template #}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} &raquo; {{ site.title }}</title>
+
+    <!-- Stylesheets -->
+    <link href="/css/reset.css" type="text/css" rel="stylesheet" />
+    <link href="/css/site.css" type="text/css" rel="stylesheet" />
+
+    {# Stylesheet block for custom templates#}
+    {% block style %}{% endblock %}
+</head>
+
+<body>
+    <header>
+        <img src="http://placehold.it/350x150">
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="content">
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>
