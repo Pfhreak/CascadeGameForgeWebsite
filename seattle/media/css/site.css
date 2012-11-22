@@ -24,9 +24,9 @@ h4 {
 }
 
 h1 {
-  -moz-text-shadow: -1px 1px 1px #E6683F;
-  -webkit-text-shadow: -1px 1px 1px #E6683F;
-  text-shadow: -1px 1px 1px #E6683F;
+  -moz-text-shadow: 1px 1px 1px #E6683F;
+  -webkit-text-shadow: 1px 1px 1px #E6683F;
+  text-shadow: 1px 1px 1px #E6683F;
 }
 
 /* Nav */
@@ -92,9 +92,9 @@ nav ul img {
   line-height: 50px;
   font-size: 1.65em;
   margin-left: 0.5em;
-  -moz-box-shadow: 1px 1px 1px #666;
-  -webkit-box-shadow: 1px 1px 1px #666;
-  box-shadow: 1px 1px 1px #666;
+  -moz-text-shadow: 1px 1px 1px #666;
+  -webkit-text-shadow: 1px 1px 1px #666;
+  text-shadow: 1px 1px 1px #666;
 }
 .card ul {
   clear: left;
@@ -126,7 +126,7 @@ nav ul img {
   -webkit-padding-start: 40px;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
-  
+
 }
 .card li {
   margin-bottom: 8px;
