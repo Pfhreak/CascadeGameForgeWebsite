@@ -11,21 +11,19 @@ a {
   text-decoration: none;
 }
 
-a,
 h1,
 h2,
 h3,
 h4 {
-  color: #161001;
+  font-family: 'Oldenburg', cursive;
+  color: #332A23;
 }
+
 h1,
 h2 {
-  -moz-text-shadow: 0px 1px 2px #666;
-  -webkit-text-shadow: 0px 1px 2px #666;
-  text-shadow: 0px 1px 2px #666;
-}
-h2 {
-  margin-top: 1.1em;
+  -moz-text-shadow: -1px 1px 1px #E6683F;
+  -webkit-text-shadow: -1px 1px 1px #E6683F;
+  text-shadow: -1px 1px 1px #E6683F;
 }
 
 /* Nav */
@@ -36,21 +34,24 @@ nav ul {
 }
 nav ul li {
   display: inline;
+  font-family: 'Oldenburg', cursive;
   margin: 0 8px;
 }
 nav ul li a:link {
-  color: #f6f4cd;
+  color: #332A23;
   font-size: 1.5em;
 }
 nav ul li a:visited {
-  color: #f6f4cd;
+  color: #332A23;
   font-size: 1.5em;
 }
 nav ul li a:hover {
-  text-transform: uppercase;
+  color: #E6683F;
+  font-size: 1.5em;
 }
 nav ul li a:active {
-  text-transform: uppercase;
+  color: #E6683F;
+  font-size: 1.5em;
 }
 
 /* Content */
