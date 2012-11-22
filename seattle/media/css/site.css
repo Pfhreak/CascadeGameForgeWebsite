@@ -23,8 +23,7 @@ h4 {
   color: #332A23;
 }
 
-h1,
-h2 {
+h1 {
   -moz-text-shadow: -1px 1px 1px #E6683F;
   -webkit-text-shadow: -1px 1px 1px #E6683F;
   text-shadow: -1px 1px 1px #E6683F;
@@ -91,8 +90,11 @@ nav ul img {
   float: left;
   vertical-align: middle;
   line-height: 50px;
-  font-size: 1.25em;
+  font-size: 1.65em;
   margin-left: 0.5em;
+  -moz-box-shadow: 1px 1px 1px #666;
+  -webkit-box-shadow: 1px 1px 1px #666;
+  box-shadow: 1px 1px 1px #666;
 }
 .card ul {
   clear: left;
@@ -118,7 +120,17 @@ nav ul img {
   font-size: 1.0em;
   border-bottom: 1px dotted #E6683F;
 }
-
+.card ul {
+  list-style-type: disc;
+  display: block;
+  -webkit-padding-start: 40px;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  
+}
+.card li {
+  margin-bottom: 8px;
+}
 /* Content */
 #content {
   width: 900px;
