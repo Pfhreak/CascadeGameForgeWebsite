@@ -91,11 +91,32 @@ nav ul img {
   float: left;
   vertical-align: middle;
   line-height: 50px;
-  margin: 0 0 0 0.5em;
+  font-size: 1.25em;
+  margin-left: 0.5em;
 }
 .card ul {
   clear: left;
   float: left;
+}
+.card a:link {
+  color: #332A23;
+  font-size: 1.0em;
+  border-bottom: 1px dotted #000;
+}
+.card a:visited {
+  color: #332A23;
+  font-size: 1.0em;
+  border-bottom: 1px dotted #000;
+}
+.card a:hover {
+  color: #E6683F;
+  font-size: 1.0em;
+  border-bottom: 1px dotted #E6683F;
+}
+.card a:active {
+  color: #E6683F;
+  font-size: 1.0em;
+  border-bottom: 1px dotted #E6683F;
 }
 
 /* Content */
