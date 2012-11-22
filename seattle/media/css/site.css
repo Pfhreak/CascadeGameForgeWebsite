@@ -53,6 +53,10 @@ nav ul li a:active {
   color: #E6683F;
   font-size: 1.5em;
 }
+nav ul img {
+  vertical-align: middle;
+  padding-bottom: 8px;
+}
 
 /* Content */
 #content {
