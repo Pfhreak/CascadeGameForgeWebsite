@@ -65,9 +65,43 @@ nav ul img {
   padding-bottom: 8px;
 }
 
+/* People */
+#card_list {
+  text-align: center;
+}
+.card {
+  text-align: left;
+  display: inline-block;
+  margin: 1em 1em;
+  padding: 12px;
+  width: 300px;
+  height: 180px;
+  background-color: #fff;
+  -moz-box-shadow: 1px 3px 3px #666;
+  -webkit-box-shadow: 1px 3px 3px #666;
+  box-shadow: 1px 3px 3px #666;
+}
+.card img {
+  float: left;
+  -moz-box-shadow: 1px 1px 3px #666;
+  -webkit-box-shadow: 1px 1px 3px #666;
+  box-shadow: 1px 1px 3px #666; 
+}
+.card h2 {
+  float: left;
+  vertical-align: middle;
+  line-height: 50px;
+  margin: 0 0 0 0.5em;
+}
+.card ul {
+  clear: left;
+  float: left;
+}
+
 /* Content */
 #content {
   width: 900px;
   margin: 0 auto;
   text-align: center;
+  font-family: 'Adamina', serif;
 }
