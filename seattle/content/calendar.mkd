@@ -1,0 +1,6 @@
+title: calendar
+type: calendar
+url: /calendar/index.html
+---
+
+Calendar page content

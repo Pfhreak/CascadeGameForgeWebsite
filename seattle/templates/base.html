@@ -11,20 +11,17 @@
     <link href='http://fonts.googleapis.com/css?family=Oldenburg|Adamina' rel='stylesheet' type='text/css'>
     <link href="/css/reset.css" type="text/css" rel="stylesheet" />
     <link href="/css/site.css" type="text/css" rel="stylesheet" />
-
-    {# Stylesheet block for custom templates#}
-    {% block style %}{% endblock %}
 </head>
 
 <body>
     <header>
-        <img src="/img/bit_title.png">
+        <img src="/img/bit_title.png" id="banner">
         <nav>
             <ul>
                 <li><a href="/">Home</a></li><img src="/img/bit_marathon.png">
-                <li><a href="/">Calendar</a></li><img src="/img/bit_etank.png">
-                <li><a href="/">People</a></li><img src="/img/bit_invader.png">
-                <li><a href="/">Projects</a></li>
+                <li><a href="/calendar">Calendar</a></li><img src="/img/bit_etank.png">
+                <li><a href="/people">People</a></li><img src="/img/bit_invader.png">
+                <li><a href="/projects">Projects</a></li>
             </ul>
         </nav>
         <img src="/img/bit_rule.png">

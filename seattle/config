@@ -1,0 +1,2 @@
+site_title: Cascade Game Forge
+url_pattern: /{category}/{slug}.html
