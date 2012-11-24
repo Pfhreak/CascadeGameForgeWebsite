@@ -7,7 +7,7 @@ def preTemplate(page, templ_vars):
                                 print 'gravatar found'
                                 m = hashlib.md5()
                                 m.update(subpage['gravatar'].strip().lower())
-                                subpage['gravatarmd5'] = m.hexdigest()
+                                subpage['gravatar'] = m.hexdigest()
 
 
 hooks = {
