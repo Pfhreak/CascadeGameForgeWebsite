@@ -1,0 +1,10 @@
+title: Phill Spiess
+category: people
+website: http://phillipspiess.com
+github: Pfhreak
+twitter: Pfhreak
+gravatar: gravatar@phillipspiess.com
+---
+Hey, I'm Phill. I wrote this site. This content won't be displayed, but maybe it will be someday, so I'm going to put some content in here just in case.
+
+I like turtles.

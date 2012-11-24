@@ -6,21 +6,21 @@
     <h1>People</h1>
     <div id="card_list">
         <!-- Cards -->
+        {% for person in page.subpages %}
         <div class="card">
             <div>
-                <img src="http://www.gravatar.com/avatar/dasdasdasdasdasd?s=50&d=http%3A%2F%2Fcascadegameforge.com%2Fimg%2Fbit_qblock50.png" >
-                <h2><a href="http://cargocollective.com/gaponoff" target="_blank">Aaron Gaponoff</a></h2>
-            </div>
-        </div>
-        <div class="card">
-            <div>
-                <img src="http://www.gravatar.com/avatar/3fa18554668892eed7f5bbf1ff3b8438?s=50&d=http%3A%2F%2Fcascadegameforge.com%2Fimg%2Fbit_qblock50.png" >
-                <h2><a href="http://phillipspiess.com" target="_blank">Phill Spiess</a></h2>
+                <img src="http://www.gravatar.com/avatar/{{ person.gravatarmd5 }}?s=50&d=http%3A%2F%2Fcascadegameforge.com%2Fimg%2Fbit_qblock50.png" >
+                <h2><a href="{{ person.website }}" target="_blank">{{ person.title }}</a></h2>
             </div>
             <ul>
-                <li>Github: <a href="https://github.com/Pfhreak" target="_blank">Pfhreak</a></li>
-                <li>Twitter:<a href="http://twitter.com/Pfhreak" target="_blank">@Pfhreak</a></li>
+                {% if person.github %}
+                <li>Github: <a href="https://github.com/{{ person.twitter }}" target="_blank">{{ person.github }}</a></li>
+                {% endif}
+                {% if person.twitter %}
+                <li>Twitter:<a href="http://twitter.com/{{ person.twitter }}" target="_blank">@{{ person.twitter }}</a></li>
+                {% endif %}
             </ul>
         </div>
+        {% endfor %}
     </div>
 {% endblock %}
