@@ -3,6 +3,5 @@ category: people
 website: http://cargocollective.com/gaponoff
 github:
 twitter:
-gravatar:
 ---
 Hey, Aaron hasn't written any of this content, I've filled it in for him.
